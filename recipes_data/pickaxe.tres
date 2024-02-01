@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=8 format=3 uid="uid://4eyob3v1guhw"]
+
+[ext_resource type="Resource" uid="uid://bagb85c81vlvi" path="res://items_data/wood.tres" id="1_coe3t"]
+[ext_resource type="Script" path="res://scripts/recipe.gd" id="1_nalxc"]
+[ext_resource type="Script" path="res://scripts/slot.gd" id="2_g5gft"]
+[ext_resource type="Resource" uid="uid://1mbk8j3u8t2" path="res://items_data/stone.tres" id="3_ikyxe"]
+[ext_resource type="Resource" uid="uid://uf8q7sgdjf7d" path="res://items_data/pickaxe.tres" id="4_vl4yx"]
+
+[sub_resource type="Resource" id="Resource_uxmh5"]
+script = ExtResource("2_g5gft")
+item = ExtResource("1_coe3t")
+quantity = 3
+
+[sub_resource type="Resource" id="Resource_nxrb7"]
+script = ExtResource("2_g5gft")
+item = ExtResource("3_ikyxe")
+quantity = 2
+
+[resource]
+script = ExtResource("1_nalxc")
+name = "Pickaxe"
+items_required = Array[ExtResource("2_g5gft")]([SubResource("Resource_uxmh5"), SubResource("Resource_nxrb7")])
+result = ExtResource("4_vl4yx")

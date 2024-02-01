@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://1mbk8j3u8t2"]
+
+[ext_resource type="Texture2D" uid="uid://dya2d6e6jms4v" path="res://textures/stone_texture.tres" id="1_5lehr"]
+[ext_resource type="Script" path="res://scripts/item.gd" id="1_owfvo"]
+
+[resource]
+script = ExtResource("1_owfvo")
+name = "Stone"
+icon = ExtResource("1_5lehr")
+unique = false
+peak = 99

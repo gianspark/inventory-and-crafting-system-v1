@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://bagb85c81vlvi"]
+
+[ext_resource type="Texture2D" uid="uid://dovt6uo4sioqo" path="res://textures/wood_texture.tres" id="1_vvptw"]
+[ext_resource type="Script" path="res://scripts/item.gd" id="1_wp63i"]
+
+[resource]
+script = ExtResource("1_wp63i")
+name = "Wood"
+icon = ExtResource("1_vvptw")
+unique = false
+peak = 99

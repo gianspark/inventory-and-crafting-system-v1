@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://cbx4vkgdioq1x"]
+
+[ext_resource type="Texture2D" uid="uid://bxi3xj3krcgtu" path="res://textures/gold_ingot_texture.tres" id="1_5gtnk"]
+[ext_resource type="Script" path="res://scripts/item.gd" id="2_cktxf"]
+
+[resource]
+script = ExtResource("2_cktxf")
+name = "Gold Ingot"
+icon = ExtResource("1_5gtnk")
+unique = false
+peak = 99

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://cl7hv5254bj13"]
+
+[ext_resource type="Texture2D" uid="uid://mlp4ak383xn3" path="res://textures/ring.tres" id="1_vtey6"]
+[ext_resource type="Script" path="res://scripts/item.gd" id="2_lhma4"]
+
+[resource]
+script = ExtResource("2_lhma4")
+name = "Ring"
+icon = ExtResource("1_vtey6")
+unique = true
+peak = 99

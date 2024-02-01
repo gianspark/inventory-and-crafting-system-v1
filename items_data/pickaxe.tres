@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://uf8q7sgdjf7d"]
+
+[ext_resource type="Texture2D" uid="uid://nmppvwn1kiqu" path="res://textures/pickaxe_texture.tres" id="1_li346"]
+[ext_resource type="Script" path="res://scripts/item.gd" id="1_s2lg1"]
+
+[resource]
+script = ExtResource("1_s2lg1")
+name = "Pickaxe"
+icon = ExtResource("1_li346")
+unique = true
+peak = 99

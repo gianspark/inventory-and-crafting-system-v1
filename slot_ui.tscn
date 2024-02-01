@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://dioom8531tteb"]
+
+[ext_resource type="Texture2D" uid="uid://ccpxe44lb4asd" path="res://textures/axe_texture.tres" id="1_pm8q6"]
+[ext_resource type="Script" path="res://slot_ui.gd" id="1_vj8n8"]
+
+[node name="slot_ui" type="PanelContainer"]
+script = ExtResource("1_vj8n8")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="icon" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("1_pm8q6")
+
+[node name="quantity" type="Label" parent="."]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+text = "1x"

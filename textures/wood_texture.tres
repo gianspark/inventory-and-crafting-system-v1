@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dovt6uo4sioqo"]
+
+[ext_resource type="Texture2D" uid="uid://cwocat1nkwbvt" path="res://Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png" id="1_s2gjj"]
+
+[resource]
+atlas = ExtResource("1_s2gjj")
+region = Rect2(0, 544, 32, 32)

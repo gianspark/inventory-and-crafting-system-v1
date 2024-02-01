@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dep2ur40vm8ys"]
+
+[ext_resource type="Texture2D" uid="uid://ccpxe44lb4asd" path="res://textures/axe_texture.tres" id="1_bgjws"]
+[ext_resource type="Script" path="res://scripts/item.gd" id="2_2itul"]
+
+[resource]
+script = ExtResource("2_2itul")
+name = "Axe"
+icon = ExtResource("1_bgjws")
+unique = true
+peak = 99
